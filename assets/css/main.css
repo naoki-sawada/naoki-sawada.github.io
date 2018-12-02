@@ -1583,6 +1583,10 @@
 		text-decoration: none;
 	}
 
+	a.none-border {
+		border-bottom: none;
+	}
+
 		a:hover {
 			border-bottom-color: transparent;
 			color: #49bf9d !important;
@@ -1742,7 +1746,7 @@
 	}
 
 	header.major h2 {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 /* Form */
