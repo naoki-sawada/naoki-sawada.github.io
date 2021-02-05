@@ -1,0 +1,25 @@
+{
+  "name": "naoki-sawada.github.io",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.common.js",
+    "start": "webpack serve --config webpack.dev.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "postcss": "^8.2.2",
+    "postcss-loader": "^4.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.1",
+    "webpack-merge": "^5.7.3"
+  }
+}
